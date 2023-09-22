@@ -1,0 +1,9 @@
+.boton-compra {
+    background-color: #0089c8;
+    color: whitesmoke;
+    box-shadow: 0 0 8px whitesmoke;
+    transition: transform 0.25s;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }

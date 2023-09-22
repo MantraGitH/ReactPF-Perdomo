@@ -1,0 +1,38 @@
+.cart-widget {
+  padding: 1em;
+  color: #0089c8;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: whitesmoke;
+  width: 100%;
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem !important;
+  font-weight: bolder;
+}
+
+.navbar-nav .nav-link {
+  display: flex;
+  margin: 20px;
+  background-color: #0089c8;
+  color: whitesmoke;
+  box-shadow: 0 0 8px whitesmoke;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.25s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
